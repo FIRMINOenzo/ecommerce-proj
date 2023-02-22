@@ -59,6 +59,7 @@ input::placeholder {
 #connect-button {
     background-color: #5568fe;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .login p {
