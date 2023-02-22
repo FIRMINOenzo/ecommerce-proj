@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.user-password{
+    display: flex;
+    flex-direction: column;
+}
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(37, 34, 34, 1);
+    color: white;
+    height: 400px;
+    width: 400px;
+}
+.btns-register-login{
+    display: flex;
+    flex-direction: row;
+    column-gap:10px;
+}
+.btn {
+    border: solid 1px red;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+.btn:hover{
+    background-color: rgb(24, 23, 23);
+    transition: 1s;
+}
+#register{
+    width: 115px ;
+}
