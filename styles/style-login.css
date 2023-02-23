@@ -71,3 +71,28 @@ input::placeholder {
 .login a {
     font-size: 1.3rem;
 }
+
+.images-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.images-container a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    left: -150px;
+}
+
+#logo {
+    border-radius: 15px;
+    box-shadow: 7px -5px 5px black;
+}
+
+@media screen and (max-width: 450px) {
+	.images-container a {
+        left: -80px;
+    }
+}
